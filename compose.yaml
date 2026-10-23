@@ -1,0 +1,30 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      DB_URL: jdbc:mysql://db:3306/bank?useSSL=false&serverTimezone=UTC
+      DB_USER: securebank
+      DB_PASSWORD: securebank
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: bank
+      MYSQL_USER: securebank
+      MYSQL_PASSWORD: securebank
+      MYSQL_ROOT_PASSWORD: change-me-before-production
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-pchange-me-before-production"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+volumes:
+  mysql-data:
