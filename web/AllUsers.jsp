@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Accounts
-    Created on : 7 Aug 2025, 4:23:12 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*"%>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Statement
-    Created on : 4 Sept 2025, 5:00:50 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Notice
-    Created on : 14 Aug 2025, 4:44:27 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

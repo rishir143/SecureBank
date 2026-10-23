@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Notification
-    Created on : 18 Aug 2025, 4:22:47 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*, BankServlet.*" %>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : View
-    Created on : 13 Aug 2025, 4:10:11 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*"%>

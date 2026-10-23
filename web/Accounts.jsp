@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Accounts
-    Created on : 19 Aug 2025, 4:46:00 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="BankServlet.*, java.sql.*"%>

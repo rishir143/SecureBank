@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : 25 Jul 2025, 4:51:24 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*, BankServlet.*"%>

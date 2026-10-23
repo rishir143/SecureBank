@@ -1,8 +1,4 @@
-<%-- 
-    Document   : nav
-    Created on : 1 Aug 2025, 5:37:23 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:include page="Bootstrap.html"/>

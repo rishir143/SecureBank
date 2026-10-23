@@ -1,8 +1,4 @@
-<%-- 
-    Document   : FundTransfer
-    Created on : 4 Sept 2025, 5:58:07 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*, BankServlet.*"%>

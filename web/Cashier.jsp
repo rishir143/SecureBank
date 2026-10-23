@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Cashier
-    Created on : 21 Aug 2025, 4:49:06 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*, BankServlet.*"%>

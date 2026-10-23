@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Manager
-    Created on : 5 Aug 2025, 4:45:33 pm
-    Author     : local user
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
